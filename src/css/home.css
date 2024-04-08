@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+.image {
+    width: 70vw;
+    height: 90vh;
+  }
+  
+  @media (max-width: 500px) {
+    .image {
+      width: 90vw; /* Adjusting width for smaller screens */
+      height: 80vh;
+    }
+  }
+  
